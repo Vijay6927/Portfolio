@@ -14,6 +14,7 @@ const Projects = () => {
   const git3 = "https://github.com/Vijay6927/WhatsApp-Chat-Analysis";
   const li = "http://memorygame27.netlify.app/";
   const li2 = "https://real-time-collaborative-whiteboard-gd3r.onrender.com/";
+  const git4="https://github.com/Vijay6927/Employee-Management-System";
 
   return (
     <div className="px-4 py-16">
@@ -43,6 +44,7 @@ const Projects = () => {
           title="Employee-Management-System"
           description={desc3}
           tech={tech3}
+          github={git4}
         />
         <Card
           image={"/memory.png"}
